@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code component</title>
+    <link rel="icon" href="../images/favicon-32x32.png" type="Icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+        *{
+            font-family: 'Outfit', sans-serif;
+        }
+        body{
+            background-color: hsl(212, 45%, 89%);
+            display: flex;
+            justify-content: center;
+            height: 100vh;
+            width: auto;
+        }
+        .Container{
+            margin: auto;
+            background-color: hsl(0, 0%, 100%) ;
+            width: 300px;
+            height: auto;
+            border-radius: 5%;
+            display: grid;
+        }
+        .Container .Img{
+            align-items: center;
+            justify-self: center;
+            width: 90%;
+            height: auto;
+            border-radius: 5%;
+            margin-top: 10%;
+        }
+        .Container div .BoldPar{
+            color: hsl(218, 44%, 22%) ;
+            text-align: center;
+            font-size: 21px;
+            font-weight: 700;
+        }
+        .Container div .Par{
+            color: hsl(220, 15%, 55%) ;
+            text-align: center;
+            font-weight: 400;
+            font-size: 15px;
+            margin-bottom: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <img class="Img" src="..\images\image-qr-code.png" alt="QR Code">
+        <div>
+            <p class="BoldPar">Improve your front-end <br/> skills by building projects</p>
+            <p class="Par">Scan the QR code to visit Frontend <br/>Mentor and take your coding skills to <br/>the next level</p>
+        </div>
+    </div>
+    
+</body>
+</html>
